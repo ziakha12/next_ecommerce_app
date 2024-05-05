@@ -1,0 +1,38 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+@font-face {
+  font-family: "satoshi";
+  src: url(../public/Assets/fonts/Satoshi/Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf);
+}
+@font-face {
+  font-family: "cera-round-pro-black";
+  src: url(../public/Assets/fonts/cera-round-pro-free-demo-typemates-160120/Demo_fonts/Fontspring-DEMO-ceraroundpro-black.otf);
+}
+@font-face {
+  font-family: "cera-round-pro-medium";
+  src: url(../public/Assets/fonts/cera-round-pro-free-demo-typemates-160120/Demo_fonts/Fontspring-DEMO-ceraroundpro-medium.otf);
+}
+.primary-btn {
+  color: white;
+  background-color: #1E2832;
+}
+
+.products-section .products-opts .btns-filter button {
+  font-family: "cera-round-pro-medium";
+}
+.products-section .products-wrapper .product .product-card h6 {
+  font-family: "cera-round-pro-black";
+}
+.footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer .footer-links a {
+  color: #1E2832;
+  font-size: 16px;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

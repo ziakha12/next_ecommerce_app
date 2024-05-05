@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: $cera-medium;
+}
+
+// Fonts
+
+@font-face {
+    font-family: "satoshi";
+    src: url(../public/Assets/fonts/Satoshi/Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf);
+}
+
+@font-face {
+    font-family: "cera-round-pro-black";
+    src: url(../public/Assets/fonts/cera-round-pro-free-demo-typemates-160120/Demo_fonts/Fontspring-DEMO-ceraroundpro-black.otf);
+}
+@font-face {
+    font-family: "cera-round-pro-medium";
+    src: url(../public/Assets/fonts/cera-round-pro-free-demo-typemates-160120/Demo_fonts/Fontspring-DEMO-ceraroundpro-medium.otf);
+}
+
+
+
+
+// Variables
+$primary-color:#1E2832;
+$cera-medium:"cera-round-pro-medium";
+$cera-black:"cera-round-pro-black";
+// Global Components
+.primary-btn{
+    color: white;
+    background-color: $primary-color;
+}
+
+
+
+// Header_Css_start
+// Hero_Css_Start
+.hero-section{
+    .banner-content{
+        .banner-text{
+            h1{
+                
+            }
+            p{
+                
+            }
+            .hero-btn{
+            }
+        }
+    }
+}
+// Products_Css_Start
+
+.products-section{
+    .products-opts{
+        .btns-filter{
+            button{
+                font-family: $cera-medium;
+            }
+        }
+
+    }
+    .products-wrapper{
+        .product{
+            .product-card{
+                h6{
+                    font-family: $cera-black;
+                }
+                span{
+                 
+                }
+                p{
+                 
+                }
+            }
+        }
+    }
+}
+.footer{
+
+    .footer-links{
+       a{
+       }
+    }
+
+
+    .footer-bottom{
+        a{
+
+        }
+    }
+}
